@@ -1,0 +1,41 @@
+body {
+  /*background-color: #1d262a;*/
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  background-color: transparent;
+  border:1px solid #000000;
+  box-shadow: 0 0 150px 20px steelblue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /*bottom: 100px;*/
+}
+
+.card {
+  border:1px solid #000000;
+  box-shadow: 0 0 120px steelblue;
+}
+
+#video {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /*bottom: 100px;*/
+}
+
+#fact {
+  display: none;
+}
